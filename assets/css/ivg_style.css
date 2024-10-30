@@ -1,0 +1,42 @@
+.ivg_gallery_section .ivg_gallery_itm {
+    float: left;
+    margin: 1%;
+    width: 23%;
+}
+
+div.ivg_popbox {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 99;
+}
+
+div.ivg_popbox_wrap {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 12.5%;
+    display: block;
+}
+
+span.ivg_prev {
+    position: fixed;
+    top: 50%;
+    left: 10%;
+    color: #ff0;
+    display: block;
+    cursor: pointer;
+}
+
+span.ivg_next {
+    position: fixed;
+    display: block;
+    top: 50%;
+    right: 10%;
+    color: #ff0;
+    cursor: pointer;
+}
